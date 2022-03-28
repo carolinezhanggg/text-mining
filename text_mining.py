@@ -60,7 +60,7 @@ def subtract(d1, d):
     for key in d1:
         if key not in d:
             result_d[key] = d1[key]
-    return list(result_d.items())[0:9]
+    return list(result_d.items())[0:10]
 
 
 def similarity(content1,content2):
