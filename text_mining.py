@@ -53,7 +53,7 @@ def stop_word(filename):
 def subtract(d1, d):
     """
     This function takes two parameters, d1 and d.
-    It would return a dictionary with all keys that appear in d1 but not d.
+    It would return a list with first 10 pairs that appear in d1 but not d.
     d1, d: dictionaries.
     """
     result_d = {}
